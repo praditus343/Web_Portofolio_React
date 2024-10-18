@@ -1,0 +1,107 @@
+/* Gaya untuk Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: #0f172a;
+  color: #fff;
+}
+
+.hero .card {
+  background: #1e293b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero .card-body {
+  color: #cbd5e1;
+}
+
+.hero .list-group-item {
+  background: #1e293b;
+  border: none;
+}
+
+.hero .list-group-item:hover {
+  background: #334155;
+}
+
+/* Tombol */
+.btn {
+  margin-right: 10px; /* Jarak antar tombol */
+  margin-bottom: 10px; /* Konsisten pada semua tombol */
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+  opacity: 0.9;
+}
+
+/* Link Tombol */
+a.btn {
+  display: inline-block;
+}
+
+/* Card Skill */
+.skill-card {
+  background: #1e293b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card i {
+  transition: color 0.3s ease;
+}
+
+.skill-card:hover i {
+  color: #01c879; /* Warna highlight saat hover */
+}
+
+/* Kontainer Teks */
+.text-container {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.text-muted {
+  color: #6b7280 !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+/* Progress Bar */
+.progress {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  transition: width 0.5s ease;
+}
+
+/* Responsif */
+@media (max-width: 767px) {
+  .btn {
+    margin-right: 5px;
+  }
+
+  .text-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

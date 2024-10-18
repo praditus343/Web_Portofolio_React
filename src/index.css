@@ -1,0 +1,261 @@
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: #0f172a;
+  color: #fff;
+}
+
+.hero .card {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+.hero .card-body {
+  color: #cbd5e1;
+}
+
+/* Gaya untuk tombol */
+.btn {
+  margin-right: 10px; /* Jarak antara tombol Follow dan Message */
+}
+
+/* Gaya untuk tombol saat hover */
+.btn-primary:hover, .btn-outline-primary:hover {
+  opacity: 0.9; /* Sedikit transparansi pada hover */
+}
+
+/* Gaya untuk link tombol */
+a.btn {
+  display: inline-block; /* Agar tombol dapat diratakan dalam baris */
+}
+
+/* Jarak antara tombol dengan konten berikutnya */
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+/* Responsif */
+@media (max-width: 767px) {
+  .btn {
+    margin-right: 5px; /* Jarak lebih kecil pada layar kecil */
+  }
+}
+
+
+.hero .list-group-item {
+  background: #1e293b;
+  border: none;
+}
+
+.hero .list-group-item:hover {
+  background: #334155;
+}
+
+.icon-inline {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+}
+
+.text-muted {
+  color: #6b7280 !important;
+}
+
+.progress {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  transition: width 0.5s ease;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h6 {
+  color: #cbd5e1;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+  color: #cbd5e1;
+}
+
+.card .card-body .text-secondary {
+  color: #9ca3af;
+}
+
+.card .card-body .text-muted {
+  color: #6b7280;
+}
+
+.card .card-body .btn {
+  margin-bottom: 10px;
+}
+
+.card .card-body .list-group-item {
+  background: #1e293b;
+  border: none;
+}
+
+.card .card-body .list-group-item:hover {
+  background: #334155;
+}
+
+.card .card-body .icon-inline {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+}
+
+.card .card-body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card .card-body li {
+  margin-bottom: 10px;
+}
+
+.card .card-body .list-unstyled {
+  padding-left: 0;
+}
+
+.card .card-body .text-muted {
+  color: #6b7280 !important;
+}
+
+.card .card-body .text-muted {
+  color: #6b7280 !important;
+}
+
+.card h6 {
+  color: #cbd5e1;
+}
+
+
+.skill-card {
+  background: #1e293b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card i {
+  transition: color 0.3s ease;
+}
+
+.skill-card:hover i {
+  color: #01c879; /* Highlight color on hover */
+}
+
+.text-container {
+  text-align: left; /* Rata kiri untuk teks */
+  margin: 0 auto; /* Center secara horizontal dalam kontainer */
+  max-width: 100%; /* Pastikan lebar maksimal 100% dari kontainer */
+  padding: 0 15px; /* Ruang tambahan di kiri dan kanan */
+}
+
+.text-muted {
+  color: #6b7280;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+/* Responsif */
+@media (max-width: 767px) {
+  .text-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.navbar-dark.bg-dark {
+  background-color: #0f172a !important;
+}
+
+.navbar-bordered {
+  border-bottom: 2px solid #01c879;
+}
+
+.logo {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 90px;
+  }
+}
+
+.nav-link {
+  font-weight: 600;
+  margin-right: 20px;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease-out;
+}
+
+.anim-border-bottom {
+  position: relative;
+  overflow: hidden;
+}
+
+.anim-border-bottom::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #01c879;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+}
+
+.anim-border-bottom:hover::after {
+  transform: scaleX(1);
+}
+
+.active.nav-item {
+  border-bottom: 2px #01c879 solid;
+}
+
+.text-justify {
+  text-align: justify; /* Mengatur teks agar diratakan ke kedua sisi */
+}
+
+.text-start {
+  text-align: left; /* Mengatur teks agar rata kiri */
+}

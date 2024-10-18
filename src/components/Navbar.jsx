@@ -28,7 +28,6 @@ const Navbar = () => {
             <Link to="/Projects" className="nav-item anim-border-bottom nav-link" aria-current="page">Projects</Link>
             <Link to="/About" className="nav-item anim-border-bottom nav-link" aria-current="page">About</Link>
             <Link to="/Contact" className="nav-item anim-border-bottom nav-link" aria-current="page">Contact</Link>
-            <Link to="/Profile" className="nav-item anim-border-bottom nav-link" aria-current="page">Profile</Link>
           </div>
         </div>
       </div>

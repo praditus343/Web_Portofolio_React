@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
+import Footer from './components/Footer';
 // Import other pages here if needed
 // import Home from './pages/Home';
 // import Projects from './pages/Projects';
@@ -20,6 +21,7 @@ const App = () => (
       <Route path="/Profile" element={<Profile />} />
     </Routes>
     <Profile/>
+    <Footer />
   </Router>
 );
 
